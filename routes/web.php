@@ -156,6 +156,13 @@ Route::get('/', function () {
             'Overhead: Landing Lights OFF',
         ],
         'Power Down' => [
+            'Taxi lights OFF',
+            'Chocks on in FMC',
+            'Seatbelts OFF',
+            'Engines Off',
+            'Clean up Overhead Panel',
+            'Ground Power OFF',
+            'Battery OFF',
         ],
     ];
 
