@@ -129,12 +129,31 @@ Route::get('/', function () {
         'Cruise' => [
             'MCP: Pull Altitude Knob to Climb Now (optional)',
             'MCP: Pull Heading Knob to follow HDG Mode (optional)',
+            'EFB: Landing Performance',
         ],
         'Descent' => [
+            'Set QNH on Standby Altimeter',
+            'FMC: TO/APPR: Check 35/Land',
+            'EFIS: Set QNH',
+            'EFIS: Set Baro to MINIMUMS',
+            'Set Autobrake',
+            '10k: Landing Lights ON',
+            'Seat Belts ON',
+            'Flaps ONE position to bring slats out',
+            'Speedbrakes when needed',
+            'FMS Speed',
         ],
         'Landing' => [
+            'Press APPR/LAND when established on ILS',
+            'Speedbrakes ARMED',
+            'Landing Gear DOWN',
+            'Flaps 35',
+            'AP Off at 1000ft',
         ],
         'Post Flight' => [
+            'Flaps UP',
+            'Speedbrake UP',
+            'Overhead: Landing Lights OFF',
         ],
         'Power Down' => [
         ],
