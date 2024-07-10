@@ -12,7 +12,7 @@
 </head>
 
 <body class="container p-8">
-    <h1 class="text-3xl font-bold">TDFI MD11 Startup Procedure (In Progress)</h1>
+    <h1 class="text-3xl font-bold">TDFI MD11 Startup Procedure</h1>
     <p class="my-2">This is my checklist to start the TFDI MD11 in Microsoft Flight Simulator.</p>
     @foreach ($checklist as $section => $items)
     <h2 class="my-2 text-lg font-bold">{{ $section }}</h2>

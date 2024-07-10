@@ -6,7 +6,7 @@ Route::get('/', function () {
 
     $checklist = [
         'Preparation' => [
-            'Parking Brake ON',
+            'Pedestal: Parking Brake ON',
             'EFB: Import Flight Plan',
             'EFB: Send Flight Plan to FMC (optional)',
             'EFB: Set Payload and Fuel',
@@ -21,7 +21,7 @@ Route::get('/', function () {
             'Overhead: Nav IRS 1 ON',
             'Overhead: Nav IRS 2 ON',
             'Overhead: Nav IRS AUX ON',
-            'Hold Standby Artificial Horizon',
+            'HOLD Standby Artificial Horizon',
             'Set QNH on Standby Altimeter',
             'FMC: Flight Plan Init -> Initialise IRS',
             'FMC: Flight Plan Init -> Enter Origin and Destination',
